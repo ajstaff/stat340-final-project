@@ -1,0 +1,61 @@
+---
+title: "Stat 340 Final Project"
+author: "AJ Staff"
+date: "11/21/2022"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+geometry: margin=1in
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Load the necessary packages in this code chunk
+library(mosaic)
+library(tidyverse)
+library(dplyr)
+library(ggformula)
+library(LearnBayes)
+library(bayesrules)
+library(ggplot2)
+library(runjags)
+library(bayesplot)
+library(MCMCvis)
+library(broom.mixed)
+library(kableExtra)
+library(here)
+
+# Data sets
+movies <- read.csv(here("data", "movie_metadata.csv"))
+```
+
+## Introduction
+
+Type here. 
+
+## Data
+Type here.
+
+## Methods
+
+Type here.
+
+
+## Results
+
+Type here.
+
+## Discussion
+
+Type here.
+
+## References
+Type here. 
+
+
+
+
+
+
